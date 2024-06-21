@@ -1,0 +1,834 @@
+body{
+    overflow-x: hidden;
+    background-color: #ebebeb;
+}
+/*nav bar css*/
+nav{
+    background-color: #F9F9F9;
+    width: 300px;
+    height: 1000px;
+    position: relative;
+    left: -10px;
+    top: -20px;
+}
+ul{
+    text-decoration: none;
+    position: relative;
+    right: -35px;
+}
+ul li{
+    display: grid;
+    padding: 15px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #6F30E0;
+    font-family: Oswald;
+}
+ul li a:hover{
+    transition: .25s linear;
+    color: #0e0e0e;
+}
+
+.user-account-icon:hover{
+    transition: .25s linear;
+    color: #0e0e0e;
+    cursor: pointer;
+}
+
+
+/*login css */
+.login-container{
+    background-color: #ebebeb;
+    height: 750px;
+    position: relative;
+    top: -48px;
+    left: -8px;
+    width: 70%;
+}
+.login-container-2{
+    background-color: #6F30E0;
+    height: 752px;
+    width: 500px;
+    position: relative;
+    left: 100%;
+    bottom: 417px;
+}
+.login-container-3{
+    position: relative;
+    left: 45%;
+    top: 220px;
+}
+.login-container-4{
+    position: relative;
+    top: 300px;
+    left: 70px;
+}
+.login-text{
+    color: #0e0e0e;
+    font-family: Oswald;
+    font-size: 70px;
+    position: relative;
+    right: 150px;
+}
+.login-button{
+    position: relative;
+    top: -10px;
+    left: 40px;
+    height: 45px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: #6F30E0;
+    color: #F9F9F9;
+    font-family: Oswald;
+}
+.login-button:hover{
+    background-color: #ebebeb;
+    transition: .45s;
+    cursor: pointer;
+    color: #6F30E0;
+}
+.login-input{
+   margin: 10px;
+   position: relative;
+   bottom: 20px;
+   right: 50px;
+   border-radius: 15px;
+   height: 30px;
+   width: 400px;
+   background-color: #ebebeb;
+}
+
+
+
+/*signup css */
+.signup-text{
+    color: #ebebeb;
+    font-family: Oswald;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+.signup-text-2{
+    font-family: Oswald;
+    font-size: 20px;
+    color: #ebebeb;
+    position: relative;
+    top: -10px;
+}
+.signup-button{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height:45px;
+    width: 240px;
+    border-radius: 30px;
+    background-color: #ebebeb;
+    color: #6F30E0;
+}
+.signup-button:hover{
+    background-color: #6F30E0;
+    transition: .45s;
+    cursor: pointer;
+    color: #ebebeb;
+}
+
+/* add users css*/                                      
+.add-user-container{
+    background-color: #ebebeb;
+    width: 500px;
+    height: 752px;
+    position: relative;
+    bottom: 790px;
+    left: 69.5%;
+}
+.add-user-container-2{
+   position: relative;
+   left: 15%;
+   top: 310px;
+}
+.add-user-text{
+    font-family: Oswald;
+    font-size: 40px;
+}
+
+.add-user-button{
+    height:45px;
+    width: 240px;
+    border-radius: 30px;
+    position: relative;
+    left: 30px;
+    background-color: #6F30E0;
+    color: #ebebeb;
+}
+.add-user-button:hover{
+   background-color: #ebebeb;
+   color: #6F30E0;
+   transition: .45s;
+   cursor: pointer;
+}
+.add-user-input{
+   background-color: #ebebeb;
+   position: relative;
+   left: -20px;
+   height: 30px;
+   width: 300px;
+   margin: 10px;
+   border-radius: 30px;
+}
+
+
+/*logo css*/
+.logo{
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+
+}
+
+
+/*college experience css */
+.main-college-experience-div{
+    position: relative;
+    bottom: 1000px;
+    left: 300px;
+}
+.college-experience-input{
+    position: relative;
+    height: 100px;
+    width: 700px;
+    margin: 10px;
+    padding-top: 20px;
+}
+.college-experience-button{
+    position: relative;
+    top: 78px;
+    right: 110px;
+    height: 35px;
+    width: 100px;
+    background-color: #6F30E0;
+    color: #ebebeb;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-college-experience-icon{
+    height: 30px;
+    position: relative;
+    left: 7px;
+    top: 2px;
+    color: #ebebeb;
+}
+.user-icon-container{
+    background-color: #6F30E0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 2px #0e0e0e;
+}
+.college-experience-username{
+    font-family: Oswald;
+    font-size: 15px;
+    color:#ebebeb;
+    position: relative;
+    left: 45px;
+    top: -36px;
+}
+.college-experience-comment{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #ebebeb;
+    position: relative;
+    left: 45px;
+    top: -30px;
+}
+.college-experience-comment-container{
+    background-color: #6F30E0;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 700px;
+    border-radius: 20px;
+    position: relative;
+    left: -70px;
+}
+.college-experience-comment-container-2{
+    background-color: #6F30E0;
+    width: 700px;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    left: 10px;;
+}
+.college-experience-comment-container-3{
+    width: 300px;
+    position: relative;
+    right: 90px;
+}
+.college-experience-rendered-container{
+    position: relative;
+    top: 50px;
+}
+.college-user-experience-text{
+    font-family: Oswald;
+    position: relative;
+    top: 30px;
+    left: 13px;
+}
+.other-college-experience-text{
+    font-family: Oswald;
+    position: relative;
+    top: 60px;
+    left: 13px;
+}
+.render-experience-comments-button{
+    position: relative;
+    top: 10px;
+    left: 66.5%;
+    height: 35px;
+    width: 100px;
+    background-color: #6F30E0;
+    color: #ebebeb;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Add this to your existing CSS */
+
+/* Define the slide-in animation */
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply the slide-in animation */
+.slide-in {
+    animation: slide-in 0.5s ease-out;
+}
+
+/* Adjust other CSS classes as needed */
+.college-experience-rendered-container {
+    position: relative;
+    top: 50px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-out; /* Smooth transition for opacity */
+}
+
+.college-experience-rendered-container.slide-in {
+    opacity: 1; /* Fully visible when slid in */
+}
+
+
+/*living experience css */
+.main-living-experience-div{
+    position: relative;
+    bottom: 1000px;
+    left: 300px;
+}
+.living-experience-input{
+    position: relative;
+    height: 100px;
+    width: 700px;
+    margin: 10px;
+    padding-top: 20px;
+}
+.living-experience-button{
+    position: relative;
+    top: 78px;
+    right: 110px;
+    height: 35px;
+    width: 100px;
+    background-color: #6F30E0;
+    color: #ebebeb;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-living-experience-icon{
+    height: 30px;
+    position: relative;
+    left: 7px;
+    top: 2px;
+    color: #ebebeb;
+}
+.user-icon-container{
+    background-color: #6F30E0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 2px #0e0e0e;
+}
+.living-experience-username{
+    font-family: Oswald;
+    font-size: 15px;
+    color:#ebebeb;
+    position: relative;
+    left: 45px;
+    top: -36px;
+}
+.living-experience-comment{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #ebebeb;
+    position: relative;
+    left: 45px;
+    top: -30px;
+}
+.living-experience-comment-container{
+    background-color: #6F30E0;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 700px;
+    border-radius: 20px;
+    position: relative;
+    left: -70px;
+}
+.living-experience-comment-container-2{
+    background-color: #6F30E0;
+    width: 700px;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    left: 10px;
+}
+.living-experience-comment-container-3{
+    width: 300px;
+    position: relative;
+    right: 90px;
+}
+.living-experience-rendered-container{
+    position: relative;
+    top: 50px;
+}
+.living-user-experience-text{
+    font-family: Oswald;
+    position: relative;
+    top: 30px;
+    left: 13px;
+}
+.other-living-experience-text{
+    font-family: Oswald;
+    position: relative;
+    top: 60px;
+    left: 13px;
+}
+.render-experience-comments-button{
+    position: relative;
+    top: 10px;
+    left: 41.3%;
+    height: 35px;
+    width: 100px;
+    background-color: #6F30E0;
+    color: #ebebeb;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Add this to your existing CSS */
+
+/* Define the slide-in animation */
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply the slide-in animation */
+.slide-in {
+    animation: slide-in 0.5s ease-out;
+}
+
+/* Adjust other CSS classes as needed */
+.living-experience-rendered-container {
+    position: relative;
+    top: 50px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-out; /* Smooth transition for opacity */
+}
+
+.living-experience-rendered-container.slide-in {
+    opacity: 1; /* Fully visible when slid in */
+}
+
+
+/*professor comments css*/
+.main-professor-div{
+    position: relative;
+    bottom: 1000px;
+    left: 300px;
+}
+.professor-experience-input{
+    position: relative;
+    height: 100px;
+    width: 700px;
+    margin: 10px;
+    padding-top: 20px;
+}
+.professor-experience-button{
+    position: relative;
+    top: 78px;
+    right: 110px;
+    height: 35px;
+    width: 100px;
+    background-color: #6F30E0;
+    color: #ebebeb;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-professor-experience-icon{
+    height: 30px;
+    position: relative;
+    left: 7px;
+    top: 2px;
+    color: #ebebeb;
+}
+.user-icon-container{
+    background-color: #6F30E0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 2px #0e0e0e;
+}
+.professor-experience-username{
+    font-family: Oswald;
+    font-size: 15px;
+    color:#ebebeb;
+    position: relative;
+    left: 45px;
+    top: -36px;
+}
+.professor-experience-comment{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #ebebeb;
+    position: relative;
+    left: 45px;
+    top: -30px;
+}
+.professor-experience-comment-container{
+    background-color: #6F30E0;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 700px;
+    border-radius: 20px;
+    position: relative;
+    left: -70px;
+}
+.professor-experience-comment-container-2{
+    background-color: #6F30E0;
+    width: 700px;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    left: 10px;
+    
+}
+.professor-experience-comment-container-3{
+    width: 300px;
+    position: relative;
+    right: 90px;
+}
+.professor-experience-rendered-container{
+    position: relative;
+    top: 50px;
+}
+.professor-user-experience-text{
+    font-family: Oswald;
+    position: relative;
+    top: 30px;
+    left: 13px;
+}
+.other-professor-experience-text{
+    font-family: Oswald;
+    position: relative;
+    top: 60px;
+    left: 13px;
+}
+.render-professor-comments-button{
+    position: relative;
+    top: 10px;
+    left: 41.3%;
+    height: 35px;
+    width: 100px;
+    background-color: #6F30E0;
+    color: #ebebeb;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Add this to your existing CSS */
+
+/* Define the slide-in animation */
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply the slide-in animation */
+.slide-in {
+    animation: slide-in 0.5s ease-out;
+}
+
+/* Adjust other CSS classes as needed */
+.professor-experience-rendered-container {
+    position: relative;
+    top: 50px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-out; /* Smooth transition for opacity */
+}
+
+.professor-experience-rendered-container.slide-in {
+    opacity: 1; /* Fully visible when slid in */
+}
+
+/*account page css */
+.profile-pic{
+    height: 80px;
+    border-radius: 100px;
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+.user-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 80px;
+    top: 100px;
+    color: #6F30E0;
+}
+.user-email{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 80px;
+    top: 100px;
+    color: #0e0e0e;
+}
+.user-bio{
+    height: 100px;
+    width: 700px;
+    position: relative;
+    left: 15%;
+    top: 60px;
+    background-color: #ebebeb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add-bio-about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6F30E0;
+    position: relative;
+    left: 15%;
+    top: 52px;
+}
+.save-user-bio{
+    position: relative;
+    left: 3%;
+    top: 135px;
+    height: 35px;
+    width: 100px;
+    background-color: #6F30E0;
+    color: #ebebeb;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+.change-profile-photo{
+    position: relative;
+    left: 23.9%;
+    top: -5px;
+    color: #0e0e0e;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    border-radius: 10px;
+}
+.faPen{
+    height: 15px;
+}
+.faPen:hover{
+    color: #6F30E0;
+    transition: .45s;
+}
+.file-container{
+    position: relative;
+    left: 70%;
+    bottom: 40px;
+    width: 400px;
+}
+
+.account-render-container-1{
+    background-color: #ffffff;
+    height: 1000px;
+    width: 54%;
+    position: relative;
+    left: 290px;
+    bottom: 1020px;
+    border: 1px solid #ffffff;
+}
+.account-render-container-2{
+    position: relative;
+    right: 80px;
+}
+.profile-pic-error{
+    position: relative;
+    left: 80%;
+    top: 20px;
+    color: #0e0e0e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.change-username-container{
+    height: 100px;
+    position: relative;
+    left: 15%;
+    top: 200px;
+}
+.change-username-input{
+    height: 30px;
+    width: 190px;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+}
+.change-username-button{
+    position: relative;
+    right: 70px;
+    top: 25px;
+    border-radius: 10px;
+    color: #ebebeb;
+    background-color: #6F30E0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.change-username-button:hover{
+    background-color: #0e0e0e;
+    color: #ebebeb;
+    transition: .45s;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.change-username-text{
+    color: #6F30E0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.change-email-container{
+    height: 100px;
+    position: relative;
+    left: 15%;
+    top: 220px;
+}
+.change-email-input{
+    height: 30px;
+    width: 190px;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+}
+.change-email-button{
+    position: relative;
+    right: 70px;
+    top: 25px;
+    border-radius: 10px;
+    color: #ebebeb;
+    background-color: #6F30E0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.change-email-button:hover{
+    background-color: #0e0e0e;
+    color: #ebebeb;
+    transition: .45s;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.change-email-text{
+    color: #6F30E0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.change-password-container{
+    height: 100px;
+    position: relative;
+    left: 72%;
+    top: 121px;
+}
+.change-password-input{
+    height: 30px;
+    width: 230px;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+    display: grid;
+    margin: 10px;
+}
+.change-password-button{
+    position: relative;
+    left: 174px;
+    bottom: 13px;
+    border-radius: 10px;
+    color: #ebebeb;
+    background-color: #6F30E0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.change-password-button:hover{
+    background-color: #0e0e0e;
+    color: #ebebeb;
+    transition: .45s;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.change-password-text{
+    color: #6F30E0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.campus-container{
+    height: 100px;
+    position: relative;
+    left: 15%;
+    top: 200px;
+}
+.campus-input{
+    height: 30px;
+    width: 190px;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+}
+.campus-button{
+    position: relative;
+    right: 70px;
+    top: 25px;
+    border-radius: 10px;
+    width: 60px;
+    color: #ebebeb;
+    background-color: #6F30E0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.campus-button:hover{
+    background-color: #0e0e0e;
+    color: #ebebeb;
+    transition: .45s;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.campus-text{
+    color: #6F30E0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
