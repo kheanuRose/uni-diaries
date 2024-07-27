@@ -220,32 +220,22 @@ exports.updateUserBio = async (req, res) => {
 // Controller function to handle user login
 exports.loginuser = async (req, res) => {
     try {
-        // Extracting email and password from the request body
         const { email, password } = req.body;
-        // Finding the user in the database based on the provided email
         const user = await User.findOne({ email: email });
-        // If user does not exist, return an error response
         if (!user) {
-            return res.json({ error: "User does not exist" });
+            return res.status(404).json({ status: "fail", error: "User does not exist" });
         }
-        // Comparing the provided password with the hashed password stored in the database
         const match = await bcrypt.compare(password, user.password);
-        // Retrieving the secret key from the environment variables
         let secret = process.env.SECRET;
-        // If passwords match, generate a JWT token
         if (match) {
-            // Signing the token with user's ID and name, setting expiration to 24 hours
             const token = jwt.sign({ id: user._id, name: user.name }, secret, { expiresIn: '2h' });
-            // Sending a success response with the generated token
-            res.json({ message: 'Password is correct', token });
+            return res.status(200).json({ status: "success", message: 'Login successful', token });
         } else {
-            // If passwords do not match, return an error response
-            res.json({ error: "Incorrect password" });
+            return res.status(401).json({ status: "fail", error: "Incorrect password" });
         }
     } catch (error) {
-        // If an error occurs during login process, log the error and return a 500 Internal Server Error response
         console.log(error);
-        res.status(500).json({ error: "Internal Server Error" });
+        return res.status(500).json({ status: "error", error: "Internal Server Error" });
     }
 };
 
